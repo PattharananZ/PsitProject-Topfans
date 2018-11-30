@@ -81,3 +81,21 @@ body, html{
 p, h2 {
   font-family: 'Prompt', sans-serif;
 }
+
+.iconfacebook{ 
+  font-size: 24px; 
+  line-height: 24px; 
+  height: 24px; 
+  width: 24px;
+  position: absolute;
+  margin-left: -30px; 
+}
+
+.iconig{
+  font-size: 24px; 
+  line-height: 24px; 
+  height: 24px; 
+  width: 24px;
+  position: absolute;
+  margin-left: -30px; 
+}
