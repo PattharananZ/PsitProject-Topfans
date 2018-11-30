@@ -1,14 +1,14 @@
 body, html{
   height:100%;
   margin:0;
-  font-size:16px;
+  font-size:25px;
   font-family: 'Prompt';
   font-weight:400;
   line-height:1.8em;
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -37,6 +37,10 @@ body, html{
   min-height:400px;
 }
 
+.pimg4{
+  background-image:url('../img/image4.jpg');
+  min-height:400px;
+}
 .section{
   text-align:center;
   padding:50px 80px;
@@ -82,20 +86,32 @@ p, h2 {
   font-family: 'Prompt', sans-serif;
 }
 
+i.italic{
+  font-weight: 100;
+}
+
 .iconfacebook{ 
   font-size: 24px; 
   line-height: 24px; 
-  height: 24px; 
-  width: 24px;
+  height: 35px; 
+  width: 35px;
   position: absolute;
-  margin-left: -30px; 
+  margin-left: -40px; 
 }
 
 .iconig{
   font-size: 24px; 
   line-height: 24px; 
-  height: 24px; 
-  width: 24px;
+  height: 40px; 
+  width: 40px;
   position: absolute;
-  margin-left: -30px; 
+  margin-left: -40px; 
+}
+
+.link{
+  color: white;
+}
+
+.chart-pic{
+  width: 50%;
 }
