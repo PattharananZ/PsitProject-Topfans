@@ -42,10 +42,10 @@ body {
 .csstransforms .opened-nav {
   border-radius: 50%;
   pointer-events: auto;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  -ms-transform: scale(0.4);
+  transform: scale(0.4);
 }
 
 .cn-overlay {
@@ -75,7 +75,7 @@ body {
   background: none;
   color: #f06060;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1em;
   padding-bottom: 1em;
   height: 3.5em;
   width: 3.5em;
