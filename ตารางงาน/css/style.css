@@ -178,9 +178,9 @@ Main Components
   padding: .8em;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
   .cd-schedule .events .single-event {
-    width: 40%;
+    width: 70%;
   }
 }
 
@@ -218,7 +218,7 @@ Main Components
     margin-bottom: 0;
   }
   .cd-schedule .events .events-group > ul {
-    height: 950px;
+    height: 1950px;
     /* reset style */
     display: block;
     overflow: visible;
