@@ -41,6 +41,7 @@ Main Components
 
 .event-info{
   font-family: 'Prompt', sans-serif;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 800px) {
