@@ -39,6 +39,10 @@ Main Components
   display: none;
 }
 
+.event-info{
+  font-family: 'Prompt', sans-serif;
+}
+
 @media only screen and (min-width: 800px) {
   .cd-schedule {
     width: 90%;
