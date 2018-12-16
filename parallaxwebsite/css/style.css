@@ -9,7 +9,7 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -61,6 +61,16 @@ body, html{
 
 .pimg8{
   background-image:url('../img/image8.jpg');
+  min-height:400px;
+}
+
+.pimg9{
+  background-image:url('../img/image9.jpg');
+  min-height:400px;
+}
+
+.pimg10{
+  background-image:url('../img/image10.jpg');
   min-height:400px;
 }
 
@@ -136,22 +146,22 @@ figcaption{
   padding-top: 15px;
 }
 
-.iconfacebook{ 
-  font-size: 24px; 
-  line-height: 24px; 
-  height: 35px; 
+.iconfacebook{
+  font-size: 24px;
+  line-height: 24px;
+  height: 35px;
   width: 35px;
   position: absolute;
-  margin-left: -40px; 
+  margin-left: -40px;
 }
 
 .iconig{
-  font-size: 24px; 
-  line-height: 24px; 
-  height: 40px; 
+  font-size: 24px;
+  line-height: 24px;
+  height: 40px;
   width: 40px;
   position: absolute;
-  margin-left: -40px; 
+  margin-left: -40px;
 }
 
 .link{
