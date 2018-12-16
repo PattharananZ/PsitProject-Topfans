@@ -9,7 +9,8 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10,
+.pimg11{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -74,6 +75,10 @@ body, html{
   min-height:400px;
 }
 
+.pimg11{
+  background-image:url('../img/image11.jpg');
+  min-height:400px;
+}
 
 .section{
   text-align:center;
