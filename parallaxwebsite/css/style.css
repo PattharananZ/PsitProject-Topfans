@@ -10,7 +10,7 @@ body, html{
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10,
-.pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16{
+.pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -92,17 +92,22 @@ body, html{
 
 .pimg14{
   background-image:url('../img/image14.jpg');
-  min-height:400px;  
+  min-height:400px;
 }
 
 .pimg15{
   background-image:url('../img/image15.jpg');
-  min-height:400px;  
+  min-height:400px;
 }
 
 .pimg16{
   background-image:url('../img/image16.jpg');
-  min-height:400px; 
+  min-height:400px;
+}
+
+.pimg17{
+  background-image:url('../img/image17.jpg');
+  min-height:400px;
 }
 
 .section{
@@ -200,7 +205,7 @@ figcaption{
   height: 40px;
   width: 40px;
   position: absolute;
-  margin-left: -40px; 
+  margin-left: -40px;
 }
 
 .link{
