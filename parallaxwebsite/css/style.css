@@ -110,6 +110,11 @@ body, html{
   min-height:400px;
 }
 
+.pimg18{
+  background-image:url('../img/BG_BNK.jpg');
+  min-height:400px;
+}
+
 .section{
   text-align:center;
   padding:50px 80px;
@@ -134,6 +139,16 @@ body, html{
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+  height: 50px;
+}
+
+.lastpic{
+  margin-bottom: 0px;
 }
 
 .ptext .border{
@@ -176,6 +191,23 @@ figcaption{
   line-height: 10px;
   font-size: 25px;
   color: #949599;
+}
+
+.desfoot{
+  line-height: 2px;
+  font-size: 10px;
+  color: #949599;
+  text-align: right;
+}
+
+.desfootr{
+  font-size: 10px;
+  color: #949599;
+  text-align: left;
+}
+
+.fimg1{
+
 }
 
 .last{
