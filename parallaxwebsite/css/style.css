@@ -147,7 +147,8 @@ body, html{
 }
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3{
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10,
+.pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17{
     background-attachment:scroll;
   }
 }
