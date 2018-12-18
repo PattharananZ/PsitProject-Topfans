@@ -177,6 +177,10 @@ figcaption{
   color: #949599;
 }
 
+.last{
+  text-align: left;
+}
+
 .imgdes{
   padding-top: 15px;
 }
