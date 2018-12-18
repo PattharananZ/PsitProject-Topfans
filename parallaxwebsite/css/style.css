@@ -195,7 +195,7 @@ figcaption{
 
 .desfoot{
   line-height: 2px;
-  font-size: 10px;
+  font-size: 15px;
   color: #949599;
   text-align: right;
 }
@@ -979,4 +979,19 @@ figcaption{
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.profile{
+  color: black;
+  margin: 5px;
+}
+
+.gprofile{
+  color: black;
+  margin: 60px;
+}
+
+.conimg2{
+  margin-left: 100px;
+  margin-right: 100px;
 }
