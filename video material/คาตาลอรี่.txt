@@ -1,0 +1,7 @@
+ชื่อกลุ่ม : I*ZONE
+ชื่อหัวข้อโปรเจค : Top fans of Cherprang
+คลิปวิดิโอนี้เป็นส่วนหนึ่งของวิชา Problem Solving in Information Technology
+จัดทำโดยนักศึกษาคณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+เว็บไซต์ที่เกี่ยวข้อง
+Github : https://github.com/PattharananZ/PsitProject-Topfans
+Website :  http://www.it.kmitl.ac.th/~it61070217/psit/index2.html
