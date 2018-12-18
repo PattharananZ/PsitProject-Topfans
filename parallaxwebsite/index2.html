@@ -10,6 +10,46 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+ <div class="navbar">
+  <a href="#home">About</a>
+  <a href="#who">Cherpang</a>
+  <div class="dropdown">
+    <button class="dropbtn">Top fan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#what">What is a Top fan?</a>
+      <a href="#how">How to be a Top fan?</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Project 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#prob">Problem</a>
+      <a href="#ana">Analysis</a>
+      <a href="#sum">Summary</a>
+    </div>
+  </div> 
+</div>
   <div class="pimg1">
     <div class="ptext">
       <span class="border">
@@ -17,7 +57,7 @@
       </span>
     </div>
   </div>
-  <section class="section section-light">
+  <section class="section section-light" id="home">
     <h2>เฌอปรางมีแฟนกี่คน !?!</h2>
     <p>
       เฌอปรางมีแฟนกี่คน ในที่นี้หมายถึง Top fans หรือ แฟนตัวยง ในแอปพลิเคชัน Facebook(เฟซบุ๊ก)<br> ซึ่งเฌอปรางมี Top fans ถึง 992คน (อัพเดทล่าสุด 25สิงหาคม - 25พฤศจิกายน)
@@ -32,7 +72,7 @@
     </div>
   </div>
 
-  <section class="section section-dark">
+  <section class="section section-dark" id="who">
     <h2>รู้จักกับ เฌอปราง BNK48</h2>
      <p>
       <strong>CHERPRANG AREEKUL</strong>
@@ -63,7 +103,7 @@
     </div>
   </div>
 
-  <section class="section section-dark">
+  <section class="section section-dark" id="what">
     <h2>แฟนตัวยงใน Facebook คืออะไร??</h2>
     <i class="destopic">จากการค้นหาข้อมูลของพวกเราพบว่า แฟนตัวยง หรือ Top Fan เป็นฟีเจอร์ที่เฟสบุ๊คสร้างขึ้นมาให้กับแฟนพันธุ์แท้ของเพจต่างๆเพื่อบอกให้กับคนอื่นได้รับรู้ว่าบุคคลดังกล่าวเป็นแฟนตัวยง ทำให้ชื่อของคน คนนั้นเด่นขึ้น เมื่อมีการโพตส์หรือคอมเม้นท์ในเพจที่เป็นแฟนตัวยง</i>
   </section>
@@ -75,7 +115,7 @@
       </span>
     </div>
   </div>
-    <section class="section section-light">
+    <section class="section section-light" id="how">
     <h2>ทำยังไงถึงจะได้เป็นแฟนตัวยง??</h2>
     <i class="destopic">การเป็นแฟนตัวยงของเพจนั้นๆ ก็ไม่ใช้เรื่องยากอะไร แค่คุณมีส่วนร่วมกับโพสต์ต่างๆของเพจ ไม่ว่าจะเป็น การกดถูกใจ การแชร์ หรือการคอมเม้นท์ ประมาณว่ามีส่วนร่วมๆ เกือบทุกโพสต์ของเพจหรือทุกโพสต์ เมื่อถึงจำนวนที่ทางเฟสบุ๊คกำหนดว่าจะได้แฟนตัวยง คุณจะมีสัญลักษณ์ดาวและข้อความ “แฟนตัวยง” เหนือชื่อ ดังภาพนี้</i>
     <br>
@@ -89,7 +129,7 @@
       </span>
     </div>
   </div>
-    <section class="section section-dark">
+    <section class="section section-dark" id="prob">
     <h2>หัวข้อปัญหา : เราอยากรู้ว่าทำไมเฌอปรางถึงมีแฟนตัวยงถึง 992 คน??</h2>
     <i class="destopic">เริ่มแรกได้ทำการค้นข้อมูลเกี่ยวกับแฟนตัวยงของเฌอปราง 4 เดือนย้อนหลัง ตั้งแต่วันที่ 25 สิงหาคม - 25 พฤศจิกายน และนำมาเปรียบเทียบเป็นกราฟ เพื่อหาสมมติฐานที่เกิดขึ้นดังนี้</i>
   </section>
@@ -100,7 +140,7 @@
       </span>
     </div>
   </div>
-    <section class="section section-light">
+    <section class="section section-light" id="ana">
     <h2>เริ่มวิเคราะห์ : นำกราฟแฟนตัวยงในเพจมาเปรียบเทียบเพื่อหาปัจจัยที่เกี่ยวข้อง</h2>
     <figure class="graphpy">
                 <embed class="chart-pic" type="image/svg+xml" src="img/GenderVs.svg" />
@@ -326,7 +366,7 @@
       </span>
     </div>
   </div>
-    <section class="section section-light">
+    <section class="section section-light" id="sum">
     <div class="last">
     <h2>ข้อสรุปที่ได้</h2>
     <p>จากการศึกษาจำนวนแฟนตัวยงจากการเก็บข้อมูล ตั้งแต่วันที่ 25 สิงหาคม 2561 - 25 พฤศจิกายน 2561 ในเพจของ Cherprang BNK48 พบว่า</p>
